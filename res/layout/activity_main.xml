@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" >
+
+        <fragment
+            android:id="@+id/fragment_course"
+            android:name="com.example.androiddemo.fragment.CourseFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <fragment
+            android:id="@+id/fragment_createdata"
+            android:name="com.example.androiddemo.fragment.CreateDataFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <fragment
+            android:id="@+id/fragment_expert"
+            android:name="com.example.androiddemo.fragment.ExpertFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <fragment
+            android:id="@+id/fragment_viewdata"
+            android:name="com.example.androiddemo.fragment.ViewdataFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </FrameLayout>
+
+    <RadioGroup
+        android:id="@+id/main_radiogroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/main1"
+            style="@style/rg_btn_style"
+            android:checked="true"
+            android:drawableTop="@drawable/tab_appcenter"
+            android:text="@string/main_tabbar_home"
+            android:textColor="@drawable/tabbar_rb_text_selector" />
+
+        <RadioButton
+            android:id="@+id/main2"
+            style="@style/rg_btn_style"
+            android:drawableTop="@drawable/tab_appcenter"
+            android:text="@string/main_tabbar_products"
+            android:textColor="@drawable/tabbar_rb_text_selector" />
+
+        <RadioButton
+            android:id="@+id/main3"
+            style="@style/rg_btn_style"
+            android:drawableTop="@drawable/tab_appcenter"
+            android:text="@string/main_tabbar_articles"
+            android:textColor="@drawable/tabbar_rb_text_selector" />
+
+        <RadioButton
+            android:id="@+id/main4"
+            style="@style/rg_btn_style"
+            android:drawableTop="@drawable/tab_appcenter"
+            android:text="@string/main_tabbar_setting"
+            android:textColor="@drawable/tabbar_rb_text_selector" />
+    </RadioGroup>
+
+</LinearLayout>

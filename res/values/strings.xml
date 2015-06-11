@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">爱干洗</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="main_tabbar_home">首页</string>
+    <string name="main_tabbar_products">服务产品</string>
+    <string name="main_tabbar_articles">爱生活</string>
+    <string name="main_tabbar_setting">设置</string>
+    <string name="main_tabbar_carts">干洗篮</string>
+
+    <!-- 爱生活 -->
+    <string name="articles_tab1">日常搭配</string>
+    <string name="articles_tab2">生活常识</string>
+    <string name="articles_tab3">洗涤护理</string>
+
+    <!-- 服务产品 -->
+    <string name="products_tab1">服装</string>
+    <string name="products_tab2">居家</string>
+    <string name="products_tab3">车饰</string>
+    <string name="products_tab4">鞋子</string>
+    <string name="products_tab5">皮具</string>
+    <string name="products_tab6">婚庆</string>
+    <string name="products_tab7">套装</string>
+    <string name="products_detail_categary">类目:</string>
+    <string name="products_detail_price">价格:</string>
+
+    <!-- 个人中心 -->
+    <string name="account_signin_password">密&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;码</string>
+    <string name="receciver">收&#160;&#160;货&#160;&#160;人</string>
+    <string name="num">电&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;话</string>
+    <string name="account_orders_tab1">全部</string>
+    <string name="account_orders_tab2">待付款</string>
+    <string name="account_orders_tab3">处理中</string>
+    <string name="account_orders_tab4">已完成</string>
+    <string name="activity_cart_count">共&#160;&#160;COUNT&#160;&#160;件商品</string>
+    <!-- <string name="account_balance">账户余额： MONEY</string> -->
+    <string name="account_balance"><![CDATA[账户余额：<font color="#ff0000">MONEY</font>]]></string>
+    <string name="order_state_processing"><![CDATA[<font color="#ff0000">处理中</font>]]></string>
+    <string name="order_state_fresh"><![CDATA[<font color="#FFA500">待付款</font>]]></string>
+    <string name="order_state_finish"><![CDATA[<font color="#66CD00">已完成</font>]]></string>
+    <string name="order_createat">下单时间：TIME</string>
+    <string name="order_count">共COUNT件</string>
+    <string name="order_id">订单编号 NUM</string>
+    <string name="credit_1"><![CDATA[<font color="#66CD00">NUM</font>]]></string>
+    <string name="credit_2"><![CDATA[<font color="#ff0000">NUM</font>]]></string>
+    <string name="order_builder">order_items[NUM]</string>
+    <string name="is_play_bottom_title">   共 NUM  注   MONEY  元   </string>
+
+    <!-- ***********************网络请求************************* -->
+    <string name="NetworkError">网络错误</string>
+    <string name="NoConnectionError">网络连接错误</string>
+    <string name="TimeoutError">网络超时，请重试</string>
+    <string name="locationError">定位信息错误，请重新定位</string>
+    
+    
+    
+
+</resources>
